@@ -1,6 +1,10 @@
 .app-header {
   width: 100vw;
-  background-image: url("../src/assets/images/BernhardtPerformance_Full_RGB.png");
+}
+
+.overlay {
+  position: absolute;
+  bottom: 30%;
 }
 
 #background-video {
