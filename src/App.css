@@ -1,13 +1,54 @@
 .app-header {
   width: 100vw;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 30%;
+  max-width: 100vh;
+  overflow: hidden;
+  text-align: center;
+  /* background-color: #000; */
 }
 
 #background-video {
   width: 100%;
   height: 100%;
+  opacity: 0.45;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 45%;
+  width: 90%;
+}
+
+.overlay img {
+  width: 100%;
+}
+
+.about-section img {
+  width: 100%;
+}
+
+.offering-section {
+  background-color: #f5f5f5;
+}
+
+.offering-section ol {
+  list-style: none;
+}
+
+.testimonials-section {
+  background-color: #e5e5e5;
+}
+
+.testimonials-section ol {
+  list-style: none;
+}
+
+.testimonials-section li {
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #d9d9d9;
+}
+
+.testimonials-section p {
+  background-color: #424040;
+  color: #fff;
 }
