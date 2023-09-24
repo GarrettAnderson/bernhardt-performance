@@ -126,7 +126,12 @@ function App() {
           <p>407-718-2337</p>
           <ol>
             <li>
-              <FontAwesomeIcon icon={faFacebook} className="facebook-icon" />
+              <a
+                href="https://www.facebook.com/people/Bernhardt-Performance/100076227660810/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faFacebook} className="facebook-icon" />
+              </a>
             </li>
             <li>
               <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
