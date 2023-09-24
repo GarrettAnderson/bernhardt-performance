@@ -2,6 +2,12 @@ import logo from "./assets/images/BernhardtPerformance_Wordmark_RGB.png";
 import video from "../src/assets/videos/bernhardt-performance.MOV";
 import "./App.css";
 import { InlineWidget } from "react-calendly";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -105,7 +111,7 @@ function App() {
         <InlineWidget url="https://calendly.com/bernhardtperformance/30min" />
         {/* <InlineWidget url="https://calendly.com/bernhardtperformance/assessment" /> */}
       </section>
-      <footer>
+      <footer className="footer">
         <section className="footer-first-column">
           <h1>Bernhardt Performance</h1>
           <p>
@@ -120,23 +126,26 @@ function App() {
           <p>407-718-2337</p>
           <ol>
             <li>
-              <FontAwesomeIcon icon="fa-brands fa-facebook" />
+              <FontAwesomeIcon icon={faFacebook} className="facebook-icon" />
             </li>
             <li>
-              <FontAwesomeIcon
-                icon="fa-brands fa-linkedin-in"
-                style={{ color: "#ffffff" }}
-              />
+              <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
             </li>
             <li>
-              <FontAwesomeIcon
-                icon="fa-brands fa-instagram"
-                style={{ color: "#ffffff" }}
-              />
+              <FontAwesomeIcon icon={faInstagram} className="instagram-icon" />
             </li>
           </ol>
         </section>
-        <section className="footer-third-column"></section>
+        <section className="footer-third-column">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.205297593174!2d-76.51955312559167!3d38.987810671704864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7f6e2fff020f3%3A0x7934af1f5781b8fc!2s3%20Baldridge%20Rd%2C%20Annapolis%2C%20MD%2021401!5e0!3m2!1sen!2sus!4v1695594391863!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
       </footer>
     </div>
   );

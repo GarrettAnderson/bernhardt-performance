@@ -52,3 +52,29 @@
   background-color: #424040;
   color: #fff;
 }
+
+.calendly-section {
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer ol {
+  list-style: none;
+}
+
+.facebook-icon {
+  color: #6d85b4;
+}
+
+.linkedin-icon {
+  color: #88bee1;
+}
+
+.instagram-icon {
+  color: #d84453;
+}

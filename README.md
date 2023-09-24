@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## References
+
+- https://www.npmjs.com/package/react-calendly
+
+- https://fontawesome.com/docs/web/use-with/react/add-icons
+
 ## Available Scripts
 
 In the project directory, you can run:
