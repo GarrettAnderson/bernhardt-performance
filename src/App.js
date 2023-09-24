@@ -1,6 +1,7 @@
 import logo from "./assets/images/BernhardtPerformance_Wordmark_RGB.png";
 import video from "../src/assets/videos/bernhardt-performance.MOV";
 import "./App.css";
+import { InlineWidget } from "react-calendly";
 
 function App() {
   return (
@@ -99,6 +100,44 @@ function App() {
           </li>
         </ol>
       </section>
+      <section className="calendly-section">
+        <h1>Book Appointments</h1>
+        <InlineWidget url="https://calendly.com/bernhardtperformance/30min" />
+        {/* <InlineWidget url="https://calendly.com/bernhardtperformance/assessment" /> */}
+      </section>
+      <footer>
+        <section className="footer-first-column">
+          <h1>Bernhardt Performance</h1>
+          <p>
+            If you are looking to reach your full potential as an athlete then
+            Bernhardt Performance is the place for you.
+          </p>
+        </section>
+        <section className="footer-second-column">
+          <h1>Contact Me</h1>
+          <p>3 Baldridge Rd., Annapolis, MD 21401, United States.</p>
+          <p>bernhardtperformance@gmail.com</p>
+          <p>407-718-2337</p>
+          <ol>
+            <li>
+              <FontAwesomeIcon icon="fa-brands fa-facebook" />
+            </li>
+            <li>
+              <FontAwesomeIcon
+                icon="fa-brands fa-linkedin-in"
+                style={{ color: "#ffffff" }}
+              />
+            </li>
+            <li>
+              <FontAwesomeIcon
+                icon="fa-brands fa-instagram"
+                style={{ color: "#ffffff" }}
+              />
+            </li>
+          </ol>
+        </section>
+        <section className="footer-third-column"></section>
+      </footer>
     </div>
   );
 }
