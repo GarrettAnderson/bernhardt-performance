@@ -4,7 +4,7 @@ import "./App.css";
 import { InlineWidget } from "react-calendly";
 import {
   faFacebook,
-  faInstagram,
+  faSquareInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -108,7 +108,7 @@ function App() {
       </section>
       <section className="calendly-section">
         <h1>Book Appointments</h1>
-        <InlineWidget url="https://calendly.com/bernhardtperformance/30min" />
+        <InlineWidget url="https://calendly.com/bernhardtperformance/assessment" />
         {/* <InlineWidget url="https://calendly.com/bernhardtperformance/assessment" /> */}
       </section>
       <footer className="footer">
@@ -137,7 +137,10 @@ function App() {
               <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
             </li>
             <li>
-              <FontAwesomeIcon icon={faInstagram} className="instagram-icon" />
+              <FontAwesomeIcon
+                icon={faSquareInstagram}
+                className="instagram-icon"
+              />
             </li>
           </ol>
         </section>
