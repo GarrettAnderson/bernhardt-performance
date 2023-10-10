@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bernhardt-performance/static/css/main.08982016.css",
+    "main.js": "/bernhardt-performance/static/js/main.dd7aaed2.js",
+    "static/js/787.95dc0130.chunk.js": "/bernhardt-performance/static/js/787.95dc0130.chunk.js",
+    "static/media/bernhardt-performance.MOV": "/bernhardt-performance/static/media/bernhardt-performance.c34ee9caf4f8b5dce42a.MOV",
+    "static/media/BernhardtPerformance_Wordmark_RGB.png": "/bernhardt-performance/static/media/BernhardtPerformance_Wordmark_RGB.e56fa5eb6bcf3f8acfbb.png",
+    "index.html": "/bernhardt-performance/index.html",
+    "main.08982016.css.map": "/bernhardt-performance/static/css/main.08982016.css.map",
+    "main.dd7aaed2.js.map": "/bernhardt-performance/static/js/main.dd7aaed2.js.map",
+    "787.95dc0130.chunk.js.map": "/bernhardt-performance/static/js/787.95dc0130.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08982016.css",
+    "static/js/main.dd7aaed2.js"
+  ]
+}
