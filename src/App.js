@@ -108,7 +108,10 @@ function App() {
       </section>
       <section className="calendly-section">
         <h1>Book Appointments</h1>
-        <InlineWidget url="https://calendly.com/bernhardtperformance/assessment" />
+        <InlineWidget
+          className="calendar-widget"
+          url="https://calendly.com/bernhardtperformance/assessment"
+        />
         {/* <InlineWidget url="https://calendly.com/bernhardtperformance/assessment" /> */}
       </section>
       <footer className="footer">
